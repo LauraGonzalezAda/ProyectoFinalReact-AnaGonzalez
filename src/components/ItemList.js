@@ -33,6 +33,7 @@ const ItemList = () => {
             title= {item.title}
             price= {item.price}
             id={item.id}
+            stock= {item.stock}
             />
             ))
             }

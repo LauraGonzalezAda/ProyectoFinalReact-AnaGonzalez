@@ -173,7 +173,7 @@ const data = [
     {
         id: 20,
         categoryId: 'verano',
-        title: 'Sandalias plataforma mujer gomon',
+        title: 'Sandalias plataforma mujer',
         price: 11000,
         imgurl: ["https://th.bing.com/th/id/OIP.EcjTCJI3hzbviPk1sTeedQHaFy?w=232&h=180&c=7&r=0&o=5&pid=1.7"],
         stock: 100,
