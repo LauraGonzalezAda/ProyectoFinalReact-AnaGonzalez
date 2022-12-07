@@ -1,6 +1,4 @@
 import Item from "./Item";
-import data from "../utils/data";
-import customFetch from  "../utils/customFetch"
 import { useEffect, useState } from "react";
 import { useParams } from "react-router-dom";
 import { fireStoreFetch } from "../utils/fireStoreFetch";

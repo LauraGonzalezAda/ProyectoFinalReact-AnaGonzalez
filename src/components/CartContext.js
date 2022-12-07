@@ -16,6 +16,7 @@ const CartContextProvider = (props) => {
                 imgurl: item.imgurl,
                 price: item.price,
                 id: item.id,
+                stock: item.stock,
                 }
             ])
             }  else {
