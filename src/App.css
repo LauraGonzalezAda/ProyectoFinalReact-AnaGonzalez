@@ -41,10 +41,15 @@ margin-left: 45vw;}
   flex-direction: row;
   justify-content: space-around;
   align-items: center;
-  width: 95%;
+  width:60%;
   margin: 10px;
   border: 2px solid #000;
   background-color: white;
   color: #000;
   margin-left: 50px;
+}
+
+.compracard{
+  margin-top: 5%;
+  width: 30%;
 }

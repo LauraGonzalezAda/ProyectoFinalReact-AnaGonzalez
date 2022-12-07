@@ -12,7 +12,7 @@ const ItemList = () => {
     useEffect(() => {
     console.log(idCategory)
         if(idCategory === undefined) {
-            customFetch(3000, data)
+            customFetch(1000, data)
             .then(response => setDatos(response))
             .catch(err => console.log(err))
         } else {
