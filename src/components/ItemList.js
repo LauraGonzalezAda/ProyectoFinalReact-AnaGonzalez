@@ -3,23 +3,16 @@ import data from "../utils/data";
 import customFetch from  "../utils/customFetch"
 import { useEffect, useState } from "react";
 import { useParams } from "react-router-dom";
-
+import { fireStoreFetch } from "../utils/fireStoreFetch";
 
 const ItemList = () => {
     const [datos, setDatos] = useState ([])
     const {idCategory} = useParams()
     
     useEffect(() => {
-    console.log(idCategory)
-        if(idCategory === undefined) {
-            customFetch(1000, data)
+        fireStoreFetch(idCategory)
             .then(response => setDatos(response))
             .catch(err => console.log(err))
-        } else {
-            customFetch(1000, data.filter(item => item.categoryId === idCategory))
-            .then(response => setDatos(response))
-            .catch(err => console.log(err))
-        }
     }, [idCategory]);
     
     return(
